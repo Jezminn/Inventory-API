@@ -1,21 +1,22 @@
 BASE URL: https://inventory-api-uis8.onrender.com
 
 Models & Collections
-1. Product
-/ Field   / Type   / Description         /
-/ ------- / ------ / ------------------- /
-/ `sku`   / String / Unique product code /
-/ `name`  / String / Product name        /
-/ `price` / Number / Product price       /
-/ `stock` / Number / Quantity in stock   /
+Product
+| Field   | Type   | Description         |
+| ------- | ------ | ------------------- |
+| `sku`   | String | Unique product code |
+| `name`  | String | Product name        |
+| `price` | Number | Product price       |
+| `stock` | Number | Quantity in stock   |
 
-2. Supplier
-/ Field     / Type   / Description           /
-/ --------- / ------ / --------------------- /
-/ `name`    / String / Supplier name         /
-/ `contact` / String / Supplier contact info /
+Supplier
+| Field     | Type   | Description           |
+| --------- | ------ | --------------------- |
+| `name`    | String | Supplier name         |
+| `contact` | String | Supplier contact info |
 
-3. Order
+
+Order
 | Field               | Type     | Description                                 |
 | ------------------- | -------- | ------------------------------------------- |
 | `items`             | Array    | List of ordered products                    |
