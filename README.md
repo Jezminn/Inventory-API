@@ -16,14 +16,15 @@ Models & Collections
 / `contact` / String / Supplier contact info /
 
 3. Order
-/ Field               / Type     / Description                                 /
-/ ------------------- / -------- / ------------------------------------------- /
-/ `items`             / Array    / List of ordered products                    /
-/ `items[].productId` / ObjectId / Reference to Product                        /
-/ `items[].qty`       / Number   / Quantity ordered                            /
-/ `items[].price`     / Number   / Product price at order time                 /
-/ `supplierId`        / ObjectId / Reference to Supplier                       /
-/ `status`            / String   / Order status (`pending`, `completed`, etc.) /
+| Field               | Type     | Description                                 |
+| ------------------- | -------- | ------------------------------------------- |
+| `items`             | Array    | List of ordered products                    |
+| `items[].productId` | ObjectId | Reference to Product                        |
+| `items[].qty`       | Number   | Quantity ordered                            |
+| `items[].price`     | Number   | Product price at order time                 |
+| `supplierId`        | ObjectId | Reference to Supplier                       |
+| `status`            | String   | Order status (`pending`, `completed`, etc.) |
+
 
 Endpoints
 PRODUCTS
