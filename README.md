@@ -27,11 +27,12 @@ Models & Collections
 
 Endpoints
 PRODUCTS
-/ Method     / Endpoint        / Description            /
-/ ---------- / --------------- / ---------------------- /
-/ **GET**    / `/products`     / Get all products       /
-/ **GET**    / `/products/:id` / Get a specific product /
-/ **POST**   / `/products`     / Create a new product   /
-/ **PUT**    / `/products/:id` / Update a product       /
-/ **DELETE** / `/products/:id` / Delete a product       /
+| Method     | Endpoint        | Description            |
+| ---------- | --------------- | ---------------------- |
+| **GET**    | `/products`     | Get all products       |
+| **GET**    | `/products/:id` | Get a specific product |
+| **POST**   | `/products`     | Create a new product   |
+| **PUT**    | `/products/:id` | Update a product       |
+| **DELETE** | `/products/:id` | Delete a product       |
+ 
 
